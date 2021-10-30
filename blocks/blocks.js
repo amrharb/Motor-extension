@@ -1,24 +1,87 @@
-Blockly.defineBlocksWithJsonArray(
-[{
-  "type": "servo",
-  "message0": "Servo pin %1 set angle %2 °",
-  "args0": [
-    {
-      "type": "input_value",
-      "name": "pin",
-      "check": "Number"
-    },
-    {
-      "type": "input_value",
-      "name": "angle",
-      "check": "Number"
-    }
-  ],
-  "inputsInline": true,
-  "previousStatement": null,
-  "nextStatement": null,
-  "colour": "#0271D9",
-  "tooltip": "",
-  "helpUrl": ""
-}]
-);
+Blockly.defineBlocksWithJsonArray([
+  {
+    type: "pin_motor_right_stop",
+    message0: "Stop motor right",
+    previousStatement: null,
+    nextStatement: null,
+    colour: "#f5ae00",
+    tooltip: "",
+    helpUrl: "",
+  },
+  {
+    type: "pin_motor_right_forward",
+    message0: "Motor right forward",
+    previousStatement: null,
+    nextStatement: null,
+    colour: "#f5ae00",
+    tooltip: "",
+    helpUrl: "",
+  },
+  {
+    type: "pin_motor_right_backward",
+    message0: "Motor right backward",
+    previousStatement: null,
+    nextStatement: null,
+    colour: "#f5ae00",
+    tooltip: "",
+    helpUrl: "",
+  },
+  {
+    type: "pin_motor_left_stop",
+    message0: "Stop motor left",
+    previousStatement: null,
+    nextStatement: null,
+    colour: "#f5ae00",
+    tooltip: "",
+    helpUrl: "",
+  },
+
+  {
+    type: "pin_motor_left_forward",
+    message0: "Motor left forward",
+    previousStatement: null,
+    nextStatement: null,
+    colour: "#f5ae00",
+    tooltip: "",
+    helpUrl: "",
+  },
+
+  {
+    type: "pin_motor_left_backward",
+    message0: "Motor left backward",
+    previousStatement: null,
+    nextStatement: null,
+    colour: "#f5ae00",
+    tooltip: "",
+    helpUrl: "",
+  },
+  {
+    type: "pin_robot_stop",
+    message0: "Stop robot",
+    previousStatement: null,
+    nextStatement: null,
+    colour: "#f5ae00",
+    tooltip: "",
+    helpUrl: "",
+  },
+
+  {
+    type: "pin_robot_forward",
+    message0: "ٌRobot forward",
+    previousStatement: null,
+    nextStatement: null,
+    colour: "#f5ae00",
+    tooltip: "",
+    helpUrl: "",
+  },
+
+  {
+    type: "pin_robot_backward",
+    message0: "Robot backward",
+    previousStatement: null,
+    nextStatement: null,
+    colour: "#f5ae00",
+    tooltip: "",
+    helpUrl: "",
+  },
+]);
